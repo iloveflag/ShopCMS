@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="shop:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/shop_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="shop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/slf4j-api-1.7.30.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/logback-core-1.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/logback-classic-1.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.24" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="shop/web/Web" />
+    </root>
+  </artifact>
+</component>
